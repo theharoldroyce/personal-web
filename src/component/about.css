@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+.a-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.a-right{
+    flex: 1;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a-card.bg{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.a-card{
+    width: 60%;
+    height: 60vh;
+    border-radius: 30px;
+}
+
+.a-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.a-title{
+    font-size: 30px;
+}
+
+.a-sub{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.a-ic.title{
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.a-ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.faFacebook{
+    font-size: 40px;
+    color: blue;
+}
+.faFacebook:hover{
+    color: rgb(21, 21, 128);
+}
+.faInstagram{
+    font-size: 40px;
+    color: #FCAF45;
+}
+.faInstagram:hover{
+    color: #88540b;
+
+}
+.faLinkedin{
+    font-size: 40px;
+    color: rgb(21, 21, 128);
+}
+.faLinkedin:hover{
+    color: blue;
+}
+.faGithub{
+    font-size: 40px;
+    color: gray;
+}
+.faGithub:hover{
+    color: rgb(31, 30, 30);
+}
+
+.a-ics{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 40px;
+}
+.FaHtml5{
+    color: 	#f06529;
+}
+.FaCss3Alt{
+    color: rgb(29, 29, 158);
+}
+.SiJavascript{
+    color: yellow;
+}
+.FaReact{
+    color: rgb(61, 182, 212);
+}
+.FaBootstrap{
+    color: rgb(136, 66, 168);
+}
+.SiTailwindcss{
+    color: rgb(70, 192, 223);
+}
+.SiCplusplus{
+    color: rgb(77, 22, 204);
+}
+.SiCsharp{
+    color: rgb(77, 22, 204);
+}
+.SiPhp{
+    color: rgb(136, 66, 168);
+}
+.SiWordpress{
+    color: rgb(58, 207, 207);
+}
+.SiMysql{
+    color: rgb(174, 209, 46);
+}
+.SiFirebase {
+    color: #FCAF45;
+}

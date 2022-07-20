@@ -101,36 +101,49 @@
 .FaHtml5{
     color: 	#f06529;
 }
+
 .FaCss3Alt{
     color: rgb(29, 29, 158);
 }
+
 .SiJavascript{
     color: yellow;
 }
+
 .FaReact{
     color: rgb(61, 182, 212);
 }
+
 .FaBootstrap{
     color: rgb(136, 66, 168);
 }
+
 .SiTailwindcss{
     color: rgb(70, 192, 223);
 }
+
 .SiCplusplus{
     color: rgb(77, 22, 204);
 }
+
 .SiCsharp{
     color: rgb(77, 22, 204);
 }
+
 .SiPhp{
     color: rgb(136, 66, 168);
 }
+
 .SiWordpress{
     color: rgb(58, 207, 207);
 }
+
 .SiMysql{
     color: rgb(174, 209, 46);
 }
+
 .SiFirebase {
     color: #FCAF45;
 }
+
+

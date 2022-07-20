@@ -32,12 +32,13 @@ function About() {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          Information Student with Experience in Building and Designing Web
+          Information System Student with Experience in Building and Designing Web
           Application. I am a Detailed-Oriented Fast Learner and can Work with
           minimum Supervision and have a Strong Creative and Analytical skills.{" "}
         </p>
 
         <div className="a-ics">
+
           <a className="FaHtml5">
             <FaHtml5 />
           </a>

@@ -1,9 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import "./contact.css";
 import { AiFillPhone, AiFillMail, AiFillHome } from "react-icons/ai";
 import { Button, Form, Row, Col,FloatingLabel } from "react-bootstrap";
+import {useRef} from "react";
+import emailjs from '@emailjs/browser';
 
 function Contact() {
+    const FormRef = useRef()
+    const [done, setDone] =useState(false)
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        emailjs.sendForm('service_haroldroyce', 'service_haroldroyce', FormRef.current, 'EzgIgkVja6ZzhxYOC')
+        .then((result) => {
+            console.log(result.text);
+            setDone(true)
+        }, (error) => {
+            console.log(error.text);
+        });
+    }
   return (
     <div className="c">
       <div className="c-bg"></div>
@@ -27,7 +41,7 @@ function Contact() {
         </div>
         <div className="c-right">
           <h4 className="c-title">Get in touch!</h4>
-          <Form>
+          <Form ref={FormRef} onSubmit={handleSubmit}>
             <Row>
               <Col>
                 <Form.Group className="mb-3" controlId="formBasicName">
@@ -58,6 +72,7 @@ function Contact() {
             <Button variant="primary" type="submit">
               Submit
             </Button>
+            { done && "Thank you..."}
           </Form>
         </div>
       </div>

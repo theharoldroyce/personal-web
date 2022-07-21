@@ -13,8 +13,6 @@
     background-color: rgb(182, 176, 176);
     display: flex;
     align-items: center;
-    position: sticky;
-    z-index: 2;
 }
 
 .wi-c{
@@ -26,11 +24,6 @@
 }
 
 .w-img{
-  width: 100%;
-  transition: all 10s ease;
+    width: 100%;
 
-}
-
-.wi:hover .w-img{
-    transform: translateY(-30%);
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "./intro.css";
-import Me from "../img/me.png";
+import Me from "../img/introo2.png";
 function Intro() {
   return (
     <div className="i">
@@ -12,6 +12,7 @@ function Intro() {
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">Web Design</div>
+              <div className="i-title-item">Coffee Enthusiast</div>
               <div className="i-title-item">Photographer</div>
             </div>
           </div>

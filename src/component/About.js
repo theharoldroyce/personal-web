@@ -18,7 +18,7 @@ import {
 } from "react-icons/si";
 import React from "react";
 import "./about.css";
-import Ame from "../img/id.JPG";
+import Ame from "../img/profile.jpg";
 
 function About() {
   return (

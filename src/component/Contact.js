@@ -2,22 +2,23 @@ import React, { useState } from "react";
 import "./contact.css";
 import { AiFillPhone, AiFillMail, AiFillHome } from "react-icons/ai";
 import { Button, Form, Row, Col,FloatingLabel } from "react-bootstrap";
-import {useRef} from "react";
+import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
 function Contact() {
-    const formRef = useRef()
-    const [done, setDone] =useState(false)
-    const handleSubmit = (e)=>{
-        e.preventDefault();
-        emailjs.sendForm('service_haroldroyce', 'service_haroldroyce', formRef.current, 'EzgIgkVja6ZzhxYOC')
-        .then((result) => {
-            console.log(result.text);
-            setDone(true)
-        }, (error) => {
-            console.log(error.text);
-        });
-    }
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm("service_zkdq7jj", "template_vbw60ff", form.current, "EzgIgkVja6ZzhxYOC")
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent")
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
   return (
     <div className="c">
       <div className="c-bg"></div>
@@ -41,7 +42,7 @@ function Contact() {
         </div>
         <div className="c-right">
           <h4 className="c-title">Get in touch!</h4>
-          <Form ref={formRef} onSubmit={handleSubmit}>
+          <Form ref={form} onSubmit={sendEmail}>
             <Row>
               <Col>
                 <Form.Group className="mb-3" controlId="formBasicName">
@@ -65,13 +66,12 @@ function Contact() {
                 as="textarea"
                 placeholder="Leave a message here"
                 style={{ height: "100px" }}
-                name="user_message" 
+                name="message"
               />
             </FloatingLabel>
-            <Button variant="primary" name="submit">
+            <Button variant="primary" type="submit" value="Send">
               Submit
             </Button>
-            { done && "Thank you..."}
           </Form>
         </div>
       </div>

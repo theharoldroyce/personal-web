@@ -34,3 +34,12 @@
 .wi:hover .w-img{
     transform: translateY(-30%);
 }
+
+
+@media screen and (max-width:480px){
+    .wi{
+        width: 40%;
+        height: 20vh;
+    }
+
+}

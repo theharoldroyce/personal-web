@@ -36,7 +36,6 @@ function About() {
           Application. I am a Detailed-Oriented Fast Learner and can Work with
           minimum Supervision and have a Strong Creative and Analytical skills.{" "}
         </p>
-
         <div className="a-ics">
 
           <a className="FaHtml5">

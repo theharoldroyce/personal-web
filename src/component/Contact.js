@@ -6,11 +6,11 @@ import {useRef} from "react";
 import emailjs from '@emailjs/browser';
 
 function Contact() {
-    const FormRef = useRef()
+    const formRef = useRef()
     const [done, setDone] =useState(false)
     const handleSubmit = (e)=>{
         e.preventDefault();
-        emailjs.sendForm('service_haroldroyce', 'service_haroldroyce', FormRef.current, 'EzgIgkVja6ZzhxYOC')
+        emailjs.sendForm('service_haroldroyce', 'service_haroldroyce', formRef.current, 'EzgIgkVja6ZzhxYOC')
         .then((result) => {
             console.log(result.text);
             setDone(true)
@@ -41,7 +41,7 @@ function Contact() {
         </div>
         <div className="c-right">
           <h4 className="c-title">Get in touch!</h4>
-          <Form ref={FormRef} onSubmit={handleSubmit}>
+          <Form ref={formRef} onSubmit={handleSubmit}>
             <Row>
               <Col>
                 <Form.Group className="mb-3" controlId="formBasicName">
@@ -68,8 +68,7 @@ function Contact() {
                 name="user_message" 
               />
             </FloatingLabel>
-
-            <Button variant="primary" type="submit">
+            <Button variant="primary" name="submit">
               Submit
             </Button>
             { done && "Thank you..."}

@@ -10,7 +10,7 @@ const  Resume = () => {
         <div className="wi-c"></div>
         <div className="wi-c"></div>        
       </div>
-      <a href="" target="_blank" rel="noreferrer"> 
+      <a target="_blank" rel="noreferrer"> 
  
       </a>
     </div>

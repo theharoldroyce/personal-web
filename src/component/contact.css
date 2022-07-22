@@ -58,3 +58,21 @@ form{
 input{
     width: 50%;
 }
+@media screen and (max-width:480px){
+    .c-wrapper{
+        flex-direction: column;
+        padding: 0px 50px;
+    }
+    .c-title{
+        font-size: 30px;
+    }
+    .c-info-item{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    form{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

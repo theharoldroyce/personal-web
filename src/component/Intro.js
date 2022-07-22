@@ -6,7 +6,7 @@ function Intro() {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hi I Am</h2>
+          <h2 className="i-intro">Hello, I'm</h2>
           <h1 className="i-name">Harold Royce</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
@@ -17,7 +17,7 @@ function Intro() {
             </div>
           </div>
           <p className="i-dis">
-          I am here to build and Design exceptional Web Software and Application.
+          Building Visions. Creating Reality.
           </p>
         </div>
       </div>

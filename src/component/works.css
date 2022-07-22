@@ -1,4 +1,5 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
 
 .w{
     padding: 50px 100px;
@@ -16,10 +17,12 @@
 .w-title{
     font-size: 50px;
     font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .w-desc{
     margin: 20px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .w-pl{
@@ -31,10 +34,17 @@
 
 @media screen and (max-width:480px){
     .w{
+        flex-direction: column;
         padding: 10px;
     }
     .w-text{
         width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .w-desc{
+        display: none;
     }
 
 }

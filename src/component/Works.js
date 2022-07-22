@@ -11,8 +11,7 @@ function Works() {
       <div className="w-text">
         <h1 className="w-title"> My Works and Projects </h1>
         <p className="w-desc">
-          lorem am here to build and Design exceptional Web Software and
-          Application
+          Example of my Recent Projects.
         </p>
       </div>
       <div className="w-pl">

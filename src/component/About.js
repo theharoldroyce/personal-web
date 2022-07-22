@@ -32,9 +32,9 @@ function About() {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          Information System Student with Experience in Building and Designing Web
-          Application. I am a Detailed-Oriented Fast Learner and can Work with
-          minimum Supervision and have a Strong Creative and Analytical skills.{" "}
+        I am a student of City College of Calapan taking up Bachelor of Science in Information Systems with specialization in Web Desiging and development.
+        Dedicated to work on projects to make easy for the users to appreciate an application, websites, or other digital products.
+        I also have basic knowledge in developing web applications using
         </p>
         <div className="a-ics">
 

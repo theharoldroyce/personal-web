@@ -1,9 +1,11 @@
 import React from "react";
 import "./intro.css";
 import Me from "../img/introo2.png";
+import Ame from "../img/profile.jpg";
+
 function Intro() {
   return (
-    <div className="i">
+    <div className="i" link="#Home">
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, I'm</h2>
@@ -16,14 +18,14 @@ function Intro() {
               <div className="i-title-item">Photographer</div>
             </div>
           </div>
-          <p className="i-dis">
-          Building Visions. Creating Reality.
-          </p>
+          <p className="i-dis">Building Visions. Creating Reality.</p>
         </div>
       </div>
       <div className="i-right">
-        <div className="i-bg"></div>
-        <img src={Me} alt="" className="i-img"/>
+        <div className="i-card bg"></div>
+        <div className="i-card">
+          <img src={Ame} alt="" className="a-img" />
+        </div>
       </div>
     </div>
   );

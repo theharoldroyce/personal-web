@@ -12,7 +12,9 @@
 }
 .i-right{
     flex: 1;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .i-left-wrapper{
     padding: 50px;
@@ -21,10 +23,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-.i-intro{
-font-size: 30px;
-font-weight: 300;
+
+}.i-intro{
+    font-size: 30px;
+     font-weight: 300;
 }
 .i-name{
     font-size: 60px;
@@ -65,15 +67,50 @@ font-weight: 300;
     position: absolute;
 }
 
-.i-bg{
-    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 100%, 0 0);
-    background-color: #191414;
-    width: 100%;
-    height: 100%;
+.i-card.bg{
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 50px;
+    left: 50px;
 }
+.i-card{
+    width: 60%;
+    height: 60vh;
+    border-radius: 30px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
 
 @media screen and (max-width:480px){
     .i{
@@ -85,5 +122,8 @@ font-weight: 300;
         justify-content: center;
         align-items: center;
         height: 100%;
+    }
+    .i-right{
+       display: none;
     }
 }

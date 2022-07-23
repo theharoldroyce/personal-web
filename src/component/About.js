@@ -1,32 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-  faGithub,
-} from "@fortawesome/free-brands-svg-icons";
+import {faFacebook,faInstagram,faLinkedin,faGithub,} from "@fortawesome/free-brands-svg-icons";
 import { FaHtml5, FaCss3Alt, FaReact, FaBootstrap } from "react-icons/fa";
-import {
-  SiJavascript,
-  SiTailwindcss,
-  SiCplusplus,
-  SiCsharp,
-  SiPhp,
-  SiWordpress,
-  SiMysql,
-  SiFirebase,
-} from "react-icons/si";
+import {SiJavascript,SiTailwindcss,SiCplusplus,SiCsharp,SiPhp,SiWordpress,SiMysql,SiFirebase,} from "react-icons/si";
 import React from "react";
 import "./about.css";
-import Ame from "../img/profile.jpg";
+import Id from "../img/id.JPG";
 
 function About() {
   return (
-    <div className="a">
+    <div className="a" href="#About">
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
-          <img src={Ame} alt="" className="a-img" />
+          <img src={Id} alt="" className="a-img" />
         </div>
       </div>
       <div className="a-right">

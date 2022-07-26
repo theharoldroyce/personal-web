@@ -8,20 +8,19 @@ function Navi() {
     <div>
       <div className="n-list">
         <ul style={{listStyleType: 'none'}}>
-          <Link spy={true} to='Navi' smooth={true} activeClass="activeClass">
-          <li>Home</li>
-          </Link>
-          <Link spy={true} to='About' smooth={true} >
-          <li>About me</li>
-          </Link>
-          <Link spy={true} to='Works' smooth={true}>
- 
-          <li>My works</li>
-          </Link>
-          <Link spy={true} to='Contact' smooth={true} >
+          <li>
+          <Link to='Intro'>Home</Link>
+          </li>
+          <li>
+          <Link to='About'>About me</Link>
+          </li>
+          <li>
+          <Link to='Works'>My Works</Link>
+          </li>
+          <li>
+            <Link to='Contact'>Contact me</Link>
+          </li>  
 
-          <li>Contact me</li>  
-          </Link>
 
       
         </ul>

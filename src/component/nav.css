@@ -17,7 +17,8 @@
   cursor: pointer;
 }
  
-.n-list>ul>Link>li:hover{
+  
+.n-list>ul>li:hover{
    color: #1DB954;
 
 }

@@ -20,7 +20,7 @@ function Contact() {
       });
   };
   return (
-    <div className="c" href="#Contact">
+    <div className="c" id="Contact">
       <div className="c-bg"></div>
       <div className="c-wrapper">
         <div className="c-left">

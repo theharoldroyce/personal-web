@@ -5,7 +5,7 @@ import Ame from "../img/profile.jpg";
 
 function Intro() {
   return (
-    <div className="i" link="#Home">
+    <div className="i" id="Intro">
       <div className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, I'm</h2>

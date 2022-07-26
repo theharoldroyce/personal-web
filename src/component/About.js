@@ -8,7 +8,7 @@ import Id from "../img/id.JPG";
 
 function About() {
   return (
-    <div className="a" href="#About">
+    <div className="a" Id="About">
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">

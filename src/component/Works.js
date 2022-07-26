@@ -7,7 +7,7 @@ import "./works.css";
 
 function Works() {
   return (
-    <div className="w">
+    <div className="w" id="Works">
       <div className="w-text">
         <h1 className="w-title"> My Works and Projects </h1>
         <p className="w-desc">

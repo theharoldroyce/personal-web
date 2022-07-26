@@ -6,6 +6,7 @@ import Works from "./component/Works.js";
 import { ThemeContext } from "./context";
 import { useContext } from "react";
 import Navi from "./component/Navi.js";
+import Footer from "./component/Footer.js";
 
 
 const App = () =>{
@@ -20,6 +21,7 @@ const App = () =>{
     <About />
     <Works />
     <Contact />
+    <Footer />
   </div>
 
   );

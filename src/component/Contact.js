@@ -69,7 +69,7 @@ function Contact() {
                 name="message"
               />
             </FloatingLabel>
-            <Button variant="primary" type="submit" value="Send">
+            <Button variant="success" type="submit" value="Send">
               Submit
             </Button>
           </Form>

@@ -5,14 +5,13 @@ import "./nav.css";
 function Navi() {
   return (
     <div>
-      <div className="topnav" id="myTopnav">
-        <a href="#Home">Home</a>
-        <a href="#About">About me</a>
-        <a href="./Workitems">My works</a>
-        <a href="#Contact">Contact me</a>
-        <a href="javascript:void(0);" className="icon" onclick="myFunction()">
-          <i className="fa fa-bars"></i>
-        </a>
+      <div className="n-list">
+        <ul style={{listStyleType: 'none'}}>
+          <li>Home</li>
+          <li>About me</li>
+          <li>My works</li>
+          <li>Contact me</li>        
+        </ul>
       </div>
     </div>
   );
